@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 import java.util.*;
 
+
 public class jeruk {
     byte PilihanAnda;
     int data=0;

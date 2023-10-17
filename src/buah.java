@@ -1,4 +1,4 @@
-import java.util.*;
+
 import java.util.Scanner;
 
 /*Nama : Danar Mukti Wibowo
@@ -7,7 +7,7 @@ import java.util.Scanner;
   */
 public class buah {
     String nama;
-    int telp,harga;
+    int telp;
     
     public static void main(String[] args) {
       byte pilih;

@@ -53,10 +53,9 @@ public class mangga {
                 default:
                 break;
             }
-            
         }
     }
-
+    
     void HargaJumlah() {
         System.out.println("-------------------------------------------");
         System.out.println("--------------Struk Pembelian--------------");
