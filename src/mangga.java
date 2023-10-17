@@ -6,7 +6,7 @@ public class mangga {
     byte PilihanAnda;
     int data=0;
     String[] namaBuah;
-    int[] dataBeli,harga,byk;
+    int[] harga,byk;
     int isi,totalHarga,Harga;
     void dataMangga() {
         Scanner input = new Scanner(System.in);
@@ -55,7 +55,6 @@ public class mangga {
             }
             
         }
-        dataBeli = new int[data];
     }
 
     void HargaJumlah() {

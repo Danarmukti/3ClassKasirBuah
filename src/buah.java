@@ -6,20 +6,21 @@ import java.util.Scanner;
   NPM  : 202143502476 
   */
 public class buah {
+    String nama;
+    int telp,harga;
     
     public static void main(String[] args) {
-        String nama;
-        int telp,harga;
-        byte pilih;
-        jeruk belijeruk = new jeruk();
+      byte pilih;
+      jeruk belijeruk = new jeruk();
+      buah belibuah = new buah();
         mangga beliMangga = new mangga();
         Scanner input = new Scanner(System.in);
         System.out.println("=====SELAMAT DATANG DI TOKO BUAH HOTARU=====");
         System.out.println("-----------------------------------");
         System.out.print("Masukan Nama Pelanggan : ");
-        nama = input.nextLine();
+        belibuah.nama = input.nextLine();
         System.out.print("Masukan No Telpon : ");
-        telp = input.nextInt();
+        belibuah.telp = input.nextInt();
         System.out.println("Jenis Buah Yang ingin dibeli : ");
         System.out.println("1. Jeruk ");
         System.out.println("2. Mangga");
@@ -29,7 +30,6 @@ public class buah {
           case 1:
           belijeruk.dataJeruk();
           belijeruk.HargaJumlah();
-          
           break;
           case 2:
           beliMangga.dataMangga();
@@ -38,6 +38,7 @@ public class buah {
           }
           System.out.println("-----------------------------------");
           System.out.println("Terima Kasih telah berbelanja "+nama);
+          System.out.println("Terima Kasih telah berbelanja "+belibuah.nama);
           System.out.println("     Jangan Lupa Datang Kembali");
     }
 }

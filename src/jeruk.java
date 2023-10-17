@@ -6,7 +6,7 @@ public class jeruk {
     byte PilihanAnda;
     int data=0;
     String[] namaBuah;
-    int[] dataBeli,harga,byk;
+    int[] harga,byk;
     int isi,totalHarga,Harga;
     void dataJeruk() {
         Scanner input = new Scanner(System.in);
@@ -55,7 +55,6 @@ public class jeruk {
             }
             
         }
-        dataBeli = new int[data];
     }
 
     void HargaJumlah() {
