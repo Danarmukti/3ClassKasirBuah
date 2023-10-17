@@ -37,7 +37,6 @@ public class buah {
             break;
           }
           System.out.println("-----------------------------------");
-          System.out.println("Terima Kasih telah berbelanja "+nama);
           System.out.println("Terima Kasih telah berbelanja "+belibuah.nama);
           System.out.println("     Jangan Lupa Datang Kembali");
     }
